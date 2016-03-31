@@ -1,0 +1,4 @@
+%h1 Index page
+- @pins.each do |p|
+  %h2=link_to p.title, p
+= link_to "New", new_pin_path
